@@ -213,7 +213,7 @@ export default {
     this.getProductsdata()
   },
   methods: {
-    deletepro(id) {
+    deletepro(id) { //
       deleteIddata(id).then(res => {
         this.getProductsdata()
       })
